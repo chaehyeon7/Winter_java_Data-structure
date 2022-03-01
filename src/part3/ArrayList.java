@@ -40,7 +40,18 @@ public class ArrayList {
 		    }
 		    return str + "]";
 		}
-	 
+
+	 public int size() {
+		 return size;
+	 }
+	 public int indexOf(Objcet o) {
+		 for(int i=0; i<size; i++) {
+			 if(o.equals(elementData[i])) {
+				 return i;
+			 }
+		 }
+		 return -1;
+	 }
 	 
 }
 
