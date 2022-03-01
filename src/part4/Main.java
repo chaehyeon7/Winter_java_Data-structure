@@ -13,6 +13,12 @@ public class Main {
 	    System.out.println(numbers.get(1));
 	    System.out.println(numbers.get(2));
 	    
+	    numbers.add(1, 15);
+	    numbers.addFirst(5);
+	    System.out.println(numbers);
+	    
+	    
+	    
 
 	}
 

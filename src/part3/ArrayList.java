@@ -28,6 +28,19 @@ public class ArrayList {
 	public Object get(int index) {
 		return elementData[index];
 	}
+
+	 
+	 public String toString(){
+		    String str = "[";
+		    for(int i=0; i < size; i++){
+		        str += elementData[i];
+		        if(i < size-1){
+		            str += ",";
+		        }
+		    }
+		    return str + "]";
+		}
+	 
 	 
 }
 
